@@ -10,7 +10,6 @@ const Contact = () => {
   const initialValues = { from_name: "", email: "", message: "" };
 
   const onSubmit = (values) => {
-    debugger;
     console.log("values", values);
     emailjs
       .sendForm(
@@ -24,6 +23,11 @@ const Contact = () => {
           console.log("Email sent successfully:", result.text);
           toast.success("Email sent successfully: ", {
             icon: "🚀",
+          });
+          resetForm({
+            from_name: "",
+            email: "",
+            message: "",
           });
         },
         (error) => {
