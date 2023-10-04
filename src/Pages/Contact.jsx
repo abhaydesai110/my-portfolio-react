@@ -1,17 +1,35 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import emailjs from "@emailjs/browser";
 import * as Yup from "yup";
+import { toast } from "react-toastify";
 
 const Contact = () => {
-  const initialValues = { name: "", email: "", message: "" };
-  const validationSchema = Yup.object().shape({
-    name: Yup.string().required("!Name is Require"),
-    email: Yup.string().required("!Email Require"),
-    message: Yup.string().required("Write Some Message"),
-  });
+  const form = useRef();
+
+  const initialValues = { from_name: "", email: "", message: "" };
 
   const onSubmit = (values) => {
+    debugger;
     console.log("values", values);
+    emailjs
+      .sendForm(
+        "service_65yr8m5",
+        "template_1nxje1f",
+        form.current,
+        "nQnP1slWK_--QRpO-"
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully:", result.text);
+          toast.success("Email sent successfully: ", {
+            icon: "🚀",
+          });
+        },
+        (error) => {
+          console.error("Email sending failed:", error.text);
+        }
+      );
   };
   return (
     <div>
@@ -30,22 +48,18 @@ const Contact = () => {
             accumsan.
           </p>
         </div>
-        <Formik
-          initialValues={initialValues}
-          validationSchema={validationSchema}
-          onSubmit={onSubmit}
-        >
+        <Formik initialValues={initialValues} onSubmit={onSubmit}>
           {({ handleChange, handleBlur }) => (
-            <Form className="mx-auto w-full pt-10 sm:w-3/4">
+            <Form ref={form} className="mx-auto w-full pt-10 sm:w-3/4">
               <div className="flex flex-col md:flex-row">
                 <Field
                   className="mr-3 w-full rounded border border-primary  px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
                   placeholder="Name"
                   type="text"
-                  name="name"
+                  name="from_name"
                   onChange={handleChange}
                   onBlur={handleBlur}
-                  id="name"
+                  id="from_name"
                 />
 
                 <Field
@@ -69,7 +83,10 @@ const Contact = () => {
                 onChange={handleChange}
                 onBlur={handleBlur}
               ></Field>
-              <button className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header duration-300 text-lg font-bold uppercase bg-white border border-primary text-primary hover:bg-primary hover:text-white">
+              <button
+                type="submit"
+                className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header duration-300 text-lg font-bold uppercase bg-white border border-primary text-primary hover:bg-primary hover:text-white"
+              >
                 Send
                 <i className="bx bx-chevron-right relative -right-2 text-3xl"></i>
               </button>

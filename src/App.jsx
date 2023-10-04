@@ -15,6 +15,8 @@ import Footer from "./Pages/Footer";
 import DailyUpdates from "./Pages/DailyUpdates";
 import MobileNavbar from "./Pages/MobileNavbar";
 import Clients from "./Pages/Clients";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 // import AbhayzImage from "../src/assets/img/blog-author.jpg"
 
 const App = () => {
@@ -30,10 +32,22 @@ const App = () => {
         <Clients id="clients" />
         <MyExperience id="work" />
         <Statistic id="statistics" />
-        <Contact id="contacts" /> 
+        <Contact id="contacts" />
         {/* <Blogs id="blogss" /> */}
         <DailyUpdates id="dailyupdates" />
         <Footer id="footer" />
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+        />
       </div>
     </>
   );
