@@ -15,7 +15,7 @@ export default {
     },
 
     colors: {
-      error: "#d72828",
+      error: "#bf0426",
       transparent: "transparent",
       primary: "#0073cf",
       secondary: "#252426",

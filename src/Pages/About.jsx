@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const About = () => {
   return (
     <div>
@@ -44,12 +43,12 @@ const About = () => {
               sought-after contributor to any coding team.
             </p>
             <div className="flex items-center space-x-7 justify-center w-full pt-6">
-              <button className="flex items-center space-x-2 justify-center hover:w-44  h-12 w-40 hover:bg-primary hover:border-0 duration-300  font-medium bg-black text-white rounded-3xl  ">
+              <button className="text-xs md:text-lg xs:w-40 flex font-normal items-center space-x-2 justify-center hover:w-44  h-12 w-40   hover:bg-primary hover:border-0 duration-300  font-medium bg-black text-white rounded-3xl  ">
                 <i className="bx bxl-github text-2xl text-white  duration-300 hover:text-grey-20"></i>
                 <h2>View Github</h2>
               </button>
-              <button className="btn">
-                <span>Download CV</span>
+              <button className=" flex items-center justify-center  btn text-xs md:text-lg md:w-40 w-36 h-12 ">
+                <span className="">Download CV</span>
               </button>
             </div>
             <div className="flex mt-6 flex-col justify-center pt-6 sm:flex-row lg:justify-start">
