@@ -15,7 +15,7 @@ export default {
     },
 
     colors: {
-      error:"#d72828",
+      error: "#d72828",
       transparent: "transparent",
       primary: "#0073cf",
       secondary: "#252426",
@@ -47,6 +47,23 @@ export default {
     },
 
     extend: {
+      keyframes: {
+        upDown: {
+          "0%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(-  25px)",
+          },
+          "100%": {
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        upDown: "upDown 2.5s ease-in-out infinite",
+      },
+
       spacing: {
         13: "3.25rem",
         15: "3.75rem",

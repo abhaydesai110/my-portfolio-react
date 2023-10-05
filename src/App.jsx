@@ -17,6 +17,7 @@ import MobileNavbar from "./Pages/MobileNavbar";
 import Clients from "./Pages/Clients";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Github from "./Pages/Github";
 // import AbhayzImage from "../src/assets/img/blog-author.jpg"
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         {/* <MobileNavbar /> */}
         <Home id="home" />
         <About id="about" />
+        <Github />
         <Services id="services" />
         <Portfolio id="portfolio" />
         <Clients id="clients" />

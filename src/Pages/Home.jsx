@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
@@ -9,12 +10,20 @@ const Home = () => {
 
         <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
           <div className="flex flex-col items-center justify-center lg:flex-row">
-            <div className="rounded-full border-8 border-primary shadow-xl">
-              <img src="Abhayz Image" className="h-48 rounded-full sm:h-56" />
+            <div className="rounded-full animate-upDown  border-8 border-primary shadow-xl">
+              <img src="asd" className="h-48 rounded-full sm:h-56" />
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
-              <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                Hello I'm Abhay Desai!
+              <h1 className="text-center font-header text-3xl text-white sm:text-left sm:text-5xl md:text-5xl">
+                <h1 className=" lg:text-left md:text-center">Hello </h1>
+                <TypeAnimation
+                  className="text-center font-header text-2xl text-white sm:text-left sm:text-5xl  md:text-5xl"
+                  sequence={["I'm Abhay Desai!", 1000, "", 1000]}
+                  wrapper="span"
+                  speed={200}
+                  // style={{ fontSize: "40px", display: "block" }}
+                  repeat={Infinity}
+                />
               </h1>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                 <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
@@ -64,6 +73,9 @@ const Home = () => {
                     <i className="bx bxl-github text-2xl text-white hover:text-yellow"></i>
                   </Link>
                 </div>
+              </div>
+              <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
+                <button className="">Download</button>
               </div>
             </div>
           </div>

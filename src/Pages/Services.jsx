@@ -11,6 +11,7 @@ import EmailWhite from "../../src/assets/img/icon-email-white.svg";
 import EmailBlack from "../../src/assets/img/icon-email-black.svg";
 import DebuggWhite from "../../src/assets/img/icon-design-white.svg";
 import DebuggBlack from "../../src/assets/img/icon-design-black.svg";
+import Github from "../assets/img/Untitled_design-removebg-preview.png"
 
 const Services = () => {
   return (
