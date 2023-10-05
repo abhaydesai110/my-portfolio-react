@@ -1,4 +1,6 @@
 import React from "react";
+import EventoPackage from "../assets/img/eventopakage.png";
+import FestumField from "../assets/img/festumfield2.png";
 
 const Portfolio = () => {
   return (
@@ -16,16 +18,13 @@ const Portfolio = () => {
             href="www.eventopackage.com"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <img
-              src="/assets/img/eventopackagepage.png"
-              className="w-full h-full shadow"
-            />
+            <img src={EventoPackage} className="w-full h-full shadow" />
           </a>
           <a
             href="/"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <img src="/assets/img/festumfield.png" className="w-full shadow" />
+            <img src={FestumField} className="w-full shadow" />
           </a>
           <a
             href="/"
