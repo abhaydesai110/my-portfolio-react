@@ -11,7 +11,6 @@ import EmailWhite from "../../src/assets/img/icon-email-white.svg";
 import EmailBlack from "../../src/assets/img/icon-email-black.svg";
 import DebuggWhite from "../../src/assets/img/icon-design-white.svg";
 import DebuggBlack from "../../src/assets/img/icon-design-black.svg";
-import Github from "../assets/img/Untitled_design-removebg-preview.png"
 
 const Services = () => {
   return (
@@ -39,7 +38,10 @@ const Services = () => {
                 WEB DEVELOPMENT
               </h3>
               <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Web development services encompass a wide range of activities
+                and tasks related to creating and maintaining websites and web
+                applications. These services are offered by web development
+                companies, agencies, or freelance developers.
               </p>
             </div>
           </div>
@@ -98,7 +100,12 @@ const Services = () => {
                 Documentation
               </h3>
               <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Documentation is crucial for the successful development and
+                maintenance of websites and web applications. It involves
+                creating comprehensive documentation that helps developers,
+                designers, and stakeholders understand the project. Key
+                documentation services include:Technical Documentation, User
+                Documentation,Testing and Quality Assurance Documentation
               </p>
             </div>
           </div>
@@ -136,7 +143,11 @@ const Services = () => {
                 Web Design
               </h3>
               <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Web design focuses on the visual and aesthetic aspects of a
+                website, making it visually appealing, user-friendly, and
+                accessible. Designers create layouts, graphics, and styles that
+                enhance the overall user experience. Key aspects of web design
+                services include: UI/UX Design, Responsive Design,Graphic Design
               </p>
             </div>
           </div>

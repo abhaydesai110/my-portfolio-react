@@ -46,10 +46,11 @@ const Contact = () => {
         </h4>
         <div className="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
           <p className="font-body text-grey-10">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit
-            condimentum turpis nisl sem, viverra habitasse urna ante lobortis
-            fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
-            accumsan.
+            Feel free to share any additional details or questions you may have.
+            Once you've filled out this contact form, please click the "Submit"
+            button below. Our team will review your information and get back to
+            you as soon as possible to discuss your project in more detail and
+            explore how we can assist you in achieving your goals.
           </p>
         </div>
         <Formik initialValues={initialValues} onSubmit={onSubmit}>

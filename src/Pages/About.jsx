@@ -43,10 +43,13 @@ const About = () => {
               and code quality in software development endeavors, making me a
               sought-after contributor to any coding team.
             </p>
-            <div className="flex items-center justify-center w-full pt-6">
+            <div className="flex items-center space-x-7 justify-center w-full pt-6">
               <button className="flex items-center space-x-2 justify-center hover:w-44  h-12 w-40 hover:bg-primary hover:border-0 duration-300  font-medium bg-black text-white rounded-3xl  ">
                 <i className="bx bxl-github text-2xl text-white  duration-300 hover:text-grey-20"></i>
                 <h2>View Github</h2>
+              </button>
+              <button className="btn">
+                <span>Download CV</span>
               </button>
             </div>
             <div className="flex mt-6 flex-col justify-center pt-6 sm:flex-row lg:justify-start">

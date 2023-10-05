@@ -50,7 +50,7 @@ const NavBar = () => {
                 <Link
                   to="/portfolio"
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                  onClick={() => smoothScrollTo("services")}
+                  onClick={() => smoothScrollTo("portfolio")}
                 >
                   Portfolio
                 </Link>

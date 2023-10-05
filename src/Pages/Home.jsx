@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import "../Pages/button.css";
 
 const Home = () => {
   return (
@@ -74,8 +75,10 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
-                <button className="">Download</button>
+              <div className="flex items-center justify-center xl:items-center pl-0 sm:justify-start md:pl-1 mt-8">
+                <button className="btn">
+                  <span>Download CV</span>
+                </button>
               </div>
             </div>
           </div>

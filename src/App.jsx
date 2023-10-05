@@ -31,7 +31,7 @@ const App = () => {
         <Github />
         <Services id="services" />
         <Portfolio id="portfolio" />
-        <Clients id="clients" />
+        {/* <Clients id="clients" /> */}
         <MyExperience id="work" />
         <Statistic id="statistics" />
         <Contact id="contacts" />
