@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import "../Pages/button.css";
 import Mark from "../assets/img/Mark.jpg";
+
 // import ReactWallpaper from "../assets/img/ReactWallpaper";
+// MobileBg
 
 const Home = () => {
   return (
     <div>
       <div className="relative sticky bg-cover  bg-center  bg-no-repeat py-8">
-        <div className="absolute  inset-0 z-20  bg-[url('../src/assets/img/ReactWallpaper7.jpg')]  bg-cover bg-center bg-no-repeat"></div>
+        <div className="absolute  inset-0 z-20 lg:bg-[url('../src/assets/img/ReactWallpaper7.jpg')] bg-[url('../src/assets/img/MobileBg2.png')]  bg-cover bg-center bg-no-repeat"></div>
 
         <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
           <div className="flex flex-col items-center justify-center lg:flex-row">

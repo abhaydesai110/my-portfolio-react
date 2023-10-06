@@ -6,7 +6,7 @@ import Experience from "../assets/img/Experience.jpg";
 const MyExperience = () => {
   return (
     <div className="">
-      <div className="container    py-16 md:py-20" id="work">
+      <div className="container  py-16 md:py-20" id="work">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
           My work experience
         </h2>
@@ -41,9 +41,10 @@ const MyExperience = () => {
                     </span>
                     <div className="pt-2">
                       <span className="block font-body text-black">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Vestibulum mattis felis vitae risus pulvinar tincidunt.
-                        Nam ac venenatis enim.
+                        As a React.js developer at Scalelot Technology, I create
+                        and maintain scalable web applications, utilizing
+                        cutting-edge technologies to deliver exceptional user
+                        experiences and robust functionality.
                       </span>
                     </div>
                   </div>
@@ -116,9 +117,10 @@ const MyExperience = () => {
                     </span>
                     <div className="pt-2">
                       <span className="block font-body text-black">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Vestibulum mattis felis vitae risus pulvinar tincidunt.
-                        Nam ac venenatis enim.
+                        As Team Leader at Jeeves Consumer Services, I excelled
+                        in managing electronics repair teams, optimizing
+                        workflows, and achieving exceptional customer
+                        satisfaction through efficient service delivery.
                       </span>
                     </div>
                   </div>
