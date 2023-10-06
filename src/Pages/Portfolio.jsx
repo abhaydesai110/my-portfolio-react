@@ -1,6 +1,8 @@
 import React from "react";
 import EventoPackage from "../assets/img/eventopakage.png";
 import FestumField from "../assets/img/festumfield2.png";
+import Interior from "../assets/img/Interior.png";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -14,26 +16,25 @@ const Portfolio = () => {
         </h3>
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-          <a
-            href="www.eventopackage.com"
+          <Link
+            to="https://eventopackage.com/"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+            target="_blanl"
           >
             <img src={EventoPackage} className="w-full h-full shadow" />
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="https://festumfield.com/"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+            target="_blank"
           >
             <img src={FestumField} className="w-full shadow" />
-          </a>
+          </Link>
           <a
             href="/"
             className="mx-auto transform transition-all hover:scale-105 md:mx-0"
           >
-            <img
-              src="/assets/img/portfolio-fedex.jpeg"
-              className="w-full shadow"
-            />
+            <img src={Interior} className="w-full shadow" />
           </a>
           <a
             href="/"

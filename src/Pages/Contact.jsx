@@ -9,6 +9,14 @@ const Contact = () => {
 
   const initialValues = { from_name: "", email: "", message: "" };
 
+  const validationSchema = Yup.object().shape({
+    from_name: Yup.string().required("Name is Required!"),
+    email: Yup.string()
+      .email("Invalid email format")
+      .required("Email is Required!"),
+    message: Yup.string().required("Message is Required!"),
+  });
+
   const onSubmit = (values) => {
     console.log("values", values);
     emailjs
@@ -36,7 +44,10 @@ const Contact = () => {
       );
   };
   return (
-    <div>
+    <div
+      className=""
+      // style={{ backgroundImage: `url('../src/assets/img/Experience.jpg')` }}
+    >
       <div className="container py-16 md:py-20" id="contacts">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
           Here's a contact form
@@ -53,29 +64,42 @@ const Contact = () => {
             explore how we can assist you in achieving your goals.
           </p>
         </div>
-        <Formik initialValues={initialValues} onSubmit={onSubmit}>
+        <Formik
+          initialValues={initialValues}
+          validationSchema={validationSchema}
+          onSubmit={onSubmit}
+        >
           {({ handleChange, handleBlur }) => (
             <Form ref={form} className="mx-auto w-full pt-10 sm:w-3/4">
-              <div className="flex flex-col md:flex-row">
-                <Field
-                  className="mr-3 w-full rounded border border-primary  px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
-                  placeholder="Name"
-                  type="text"
-                  name="from_name"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  id="from_name"
-                />
-
-                <Field
-                  className="mt-6 w-full rounded border border-primary px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
-                  placeholder="Email"
-                  type="email"
-                  name="email"
-                  id="email"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                />
+              <div className="flex flex-col w-full md:flex-row">
+                <div className="flex w-full md:w-1/2 flex-col">
+                  <Field
+                    className="mr-3 w-full rounded border border-primary  px-4 py-3 font-body text-black lg:mr-5"
+                    placeholder="Name"
+                    type="text"
+                    name="from_name"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    id="from_name"
+                  />
+                  <span className="text-xs text-formerror">
+                    <ErrorMessage name="from_name" />
+                  </span>
+                </div>
+                <div className="flex flex-col w-full md:w-1/2 mt-6 md:mt-0 md:ml-3 lg:ml-5">
+                  <Field
+                    className="rounded border border-primary px-4 py-3 font-body text-black"
+                    placeholder="Email"
+                    type="email"
+                    name="email"
+                    id="email"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                  />
+                  <span className="text-xs text-formerror">
+                    <ErrorMessage name="email" />
+                  </span>
+                </div>
               </div>
               <Field
                 as="textarea"
@@ -88,6 +112,9 @@ const Contact = () => {
                 onChange={handleChange}
                 onBlur={handleBlur}
               ></Field>
+              <span className="text-xs  text-formerror">
+                <ErrorMessage name="message" />
+              </span>
               <button
                 type="submit"
                 className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header duration-300 text-lg font-bold uppercase bg-white border border-primary text-primary hover:bg-primary hover:text-white"

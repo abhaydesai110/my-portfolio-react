@@ -31,7 +31,7 @@ const NavBar = () => {
                   About
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent  group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparent duration-500 group-hover:bg-error"></span>
               </li>
 
               <li className="group pl-6">
@@ -43,7 +43,7 @@ const NavBar = () => {
                   Services
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparen duration-500 group-hover:bg-error"></span>
               </li>
 
               <li className="group pl-6">
@@ -55,7 +55,7 @@ const NavBar = () => {
                   Portfolio
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparen duration-500 group-hover:bg-error"></span>
               </li>
 
               {/* <li className="group pl-6">
@@ -67,7 +67,7 @@ const NavBar = () => {
                   clients
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparen duration-500 group-hover:bg-error"></span>
               </li> */}
 
               <li className="group pl-6">
@@ -79,7 +79,7 @@ const NavBar = () => {
                   Work
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparen duration-500 group-hover:bg-error"></span>
               </li>
 
               <li className="group pl-6">
@@ -91,7 +91,7 @@ const NavBar = () => {
                   Statistics
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparen duration-500 group-hover:bg-error"></span>
               </li>
 
               {/* <li className="group pl-6">
@@ -103,7 +103,7 @@ const NavBar = () => {
                   Blogs
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparen duration-500 group-hover:bg-error"></span>
               </li> */}
 
               <li className="group pl-6">
@@ -115,7 +115,7 @@ const NavBar = () => {
                   contacts
                 </Link>
 
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-error"></span>
+                <span className="block h-0.5 w-full bg-transparen duration-500 group-hover:bg-error"></span>
               </li>
             </ul>
           </div>

@@ -1,11 +1,12 @@
 import React from "react";
 import ScalelotLogo from "../../src/assets/img/ScalelotLogo2.jpg";
 import JeevesLogo from "../../src/assets/img/JeevesLogo.svg";
+import Experience from "../assets/img/Experience.jpg";
 
 const MyExperience = () => {
   return (
-    <div>
-      <div className="container py-16 md:py-20" id="work">
+    <div className="">
+      <div className="container    py-16 md:py-20" id="work">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
           My work experience
         </h2>

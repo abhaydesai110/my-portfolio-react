@@ -15,6 +15,7 @@ export default {
     },
 
     colors: {
+      formerror: "#ff0000",
       error: "#bf0426",
       transparent: "transparent",
       primary: "#0073cf",
