@@ -17,7 +17,7 @@ const Contact = () => {
     message: Yup.string().required("Message is Required!"),
   });
 
-  const onSubmit = (values) => {
+  const onSubmit = (values, { resetForm }) => {
     console.log("values", values);
     emailjs
       .sendForm(
@@ -32,17 +32,14 @@ const Contact = () => {
           toast.success("Email sent successfully: ", {
             icon: "🚀",
           });
-          resetForm({
-            from_name: "",
-            email: "",
-            message: "",
-          });
+          resetForm();
         },
         (error) => {
           console.error("Email sending failed:", error.text);
         }
       );
   };
+ 
   return (
     <div
       className=""
@@ -68,8 +65,9 @@ const Contact = () => {
           initialValues={initialValues}
           validationSchema={validationSchema}
           onSubmit={onSubmit}
+          // onReset={handleReset}
         >
-          {({ handleChange, handleBlur }) => (
+          {({ handleChange, handleBlur, setFieldValue }) => (
             <Form ref={form} className="mx-auto w-full pt-10 sm:w-3/4">
               <div className="flex flex-col w-full md:flex-row">
                 <div className="flex w-full md:w-1/2 flex-col">
