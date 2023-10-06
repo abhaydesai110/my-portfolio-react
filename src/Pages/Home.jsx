@@ -8,7 +8,7 @@ import Mark from "../assets/img/Mark.jpg";
 const Home = () => {
   return (
     <div>
-      <div className="relative sticky bg-cover bg-[url('../src/assets/img/bg-hero.jpg')] bg-center  bg-no-repeat py-8">
+      <div className="relative sticky bg-cover  bg-center  bg-no-repeat py-8">
         <div className="absolute  inset-0 z-20  bg-[url('../src/assets/img/ReactWallpaper7.jpg')]  bg-cover bg-center bg-no-repeat"></div>
 
         <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
