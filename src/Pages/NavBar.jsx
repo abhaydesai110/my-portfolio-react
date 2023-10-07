@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import NavLogo from "../assets/img/NavLogo.png";
+import { BiCodeAlt } from "react-icons/bi";
 
 const NavBar = () => {
   const smoothScrollTo = (targetId) => {
@@ -18,8 +18,13 @@ const NavBar = () => {
         <div className="container flex items-center justify-between">
           <div>
             <Link to="">
-              <img src={NavLogo} width={100} height={100} alt="" />
-              <h1 className="font-logofont text-white text-4xl">Abhay</h1>
+              <div className="flex items-center justify-center">
+                <BiCodeAlt size="50px" cursor="none" color="red" />
+                
+                {/* <img className="text-white" src={logo} width={100} height={100} alt="" /> */}
+
+                <h1 className="font-logofont text-white text-4xl">ABHAY</h1>
+              </div>
             </Link>
           </div>
           <div className="hidden lg:block">

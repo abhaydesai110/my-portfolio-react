@@ -2,10 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import "../Pages/button.css";
-import Mark from "../assets/img/Mark.jpg";
+import Abhay from "../assets/img/Abhay.jpeg";
 
-// import ReactWallpaper from "../assets/img/ReactWallpaper";
-// MobileBg
 
 const Home = () => {
   return (
@@ -16,7 +14,7 @@ const Home = () => {
         <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="rounded-full animate-upDown border-8 border-primary shadow-xl">
-              <img src="asd" className="h-48 rounded-full sm:h-56" />
+              <img src={Abhay} className="h-48 object-scale-down rounded-full sm:h-56" />
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
               <h1 className="text-center font-header text-3xl text-white sm:text-left sm:text-5xl md:text-5xl">

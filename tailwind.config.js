@@ -5,8 +5,9 @@ export default {
   theme: {
     fontFamily: {
       header: ["Raleway", "sans-serif"],
-      body: ["Open Sans", "sans-serif"],
-      logofont: ["Wallpoet", "cursive"],
+      // body: ["Open Sans", "sans-serif"], 
+      body: ["Mate", ...defaultTheme.fontFamily.sans], 
+      logofont: ["Big Shoulders Stencil Display", ...defaultTheme.fontFamily.sans],
     },
 
     screens: {

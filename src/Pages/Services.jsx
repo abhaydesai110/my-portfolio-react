@@ -33,11 +33,11 @@ const Services = () => {
                 <img src={WebDevelopement} />
               </div>
             </div>
-            <div className="text-center">
+            <div className="text-center ">
               <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                 WEB DEVELOPMENT
               </h3>
-              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              <p className="font-body text-grey pt-4 text-sm group-hover:text-white md:text-base">
                 Web development services encompass a wide range of activities
                 and tasks related to creating and maintaining websites and web
                 applications. These services are offered by web development
@@ -59,7 +59,7 @@ const Services = () => {
               <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                 State Management
               </h3>
-              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              <p className="font-body text-grey pt-4 text-sm group-hover:text-white md:text-base">
                 React provides tools like Redux and React Context API for
                 managing application state. Developers use these tools to manage
                 data and UI state efficiently.
@@ -79,7 +79,7 @@ const Services = () => {
               <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                 Component Development
               </h3>
-              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              <p className="font-body text-grey pt-4 text-sm group-hover:text-white md:text-base">
                 React is built around the concept of reusable UI components.
                 React developers create and maintain these components, which can
                 be combined to build complex user interfaces.
@@ -99,7 +99,7 @@ const Services = () => {
               <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                 Documentation
               </h3>
-              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              <p className="font-body text-grey pt-4 text-sm group-hover:text-white md:text-base">
                 Documentation is crucial for the successful development and
                 maintenance of websites and web applications. It involves
                 creating comprehensive documentation that helps developers,
@@ -122,7 +122,7 @@ const Services = () => {
               <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                 Debugging and Troubleshooting
               </h3>
-              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              <p className="font-body text-grey pt-4 text-sm group-hover:text-white md:text-base">
                 React frequently releases new versions, and so we have may be
                 involved in upgrading existing projects to the latest React
                 version or migrating from older libraries or frameworks.
@@ -142,7 +142,7 @@ const Services = () => {
               <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
                 Web Design
               </h3>
-              <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              <p className="font-body text-grey pt-4 text-sm group-hover:text-white md:text-base">
                 Web design focuses on the visual and aesthetic aspects of a
                 website, making it visually appealing, user-friendly, and
                 accessible. Designers create layouts, graphics, and styles that
