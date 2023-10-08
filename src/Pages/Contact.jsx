@@ -129,7 +129,7 @@ const Contact = () => {
             <div className="flex items-center">
               <i className="bx bx-phone text-2xl text-grey-40"></i>
               <p className="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                My Phone
+                 Phone
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
@@ -140,7 +140,7 @@ const Contact = () => {
             <div className="flex items-center">
               <i className="bx bx-envelope text-2xl text-grey-40"></i>
               <p className="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                My Email
+                 Email
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
@@ -151,7 +151,7 @@ const Contact = () => {
             <div className="flex items-center">
               <i className="bx bx-map text-2xl text-grey-40"></i>
               <p className="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                My Address
+                 Address
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">

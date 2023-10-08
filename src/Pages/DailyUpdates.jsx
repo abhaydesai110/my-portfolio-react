@@ -25,6 +25,9 @@ const DailyUpdates = () => {
               onClick={(e) => {
                 e.preventDefault();
                 toast.success(email !== "" ? "Email sent Successfully" : null);
+                setTimeout(() => {
+                  setEmail(" ");
+                }, 200);
               }}
               className="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors  duration-300 hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg"
             >

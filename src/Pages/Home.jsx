@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import "../Pages/button.css";
 import Abhay from "../assets/img/Abhay.jpeg";
+import Resume from "../assets/img/Abhay_ReactJs_2YearsExp.pdf";
 
 const Home = () => {
   return (
@@ -53,7 +54,11 @@ const Home = () => {
                   >
                     <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
                   </Link>
-                  <Link to="https://abhaydesai.netlify.app/" className="pl-4" target="_black">
+                  <Link
+                    to="https://abhaydesai.netlify.app/"
+                    className="pl-4"
+                    target="_black"
+                  >
                     <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
                   </Link>
                   <Link
@@ -80,9 +85,11 @@ const Home = () => {
                 </div>
               </div>
               <div className="flex items-center justify-center xl:items-center pl-0 sm:justify-start md:pl-1 mt-8">
-                <button className="btn">
-                  <span>Download CV</span>
-                </button>
+                <Link to={Resume} download="Abhay_ReactJs_2YearsExp" target="_black">
+                  <button className="btn classes.navLinks">
+                    <span>Download CV</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

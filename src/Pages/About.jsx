@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Resume from "../assets/img/Abhay_ReactJs_2YearsExp.pdf";
 
 const About = () => {
   return (
@@ -24,13 +25,13 @@ const About = () => {
               Technical skills
             </h3>
             <p className="flex pt-6 font font-medium text-grey-20 flex-row">
-              | HTML | CSS | JAVASCRIPT | REACT | STATE MANAGEMENT | ROUTING
+               HTML | CSS | JAVASCRIPT | REACT | STATE MANAGEMENT | ROUTING
               <br />| API INTEGRATON | DEBUGGING| DEPLOYMENT | NODEJS | EXPRESS
               JS | <br />| MONGODB | REDUX-TOOLKIT
             </p>
             <h3 className="pt-6 font-header flex items-center justify-start text-xl font-medium sm:justify-center justify-start text-black sm:text-2xl lg:text-2xl">
               <i className="bx bxl-github text-4xl text-black duration-300 hover:text-grey-20"></i>
-              <p>GitHub Desktop Proficiency</p>
+              <p className="text-center">GitHub Desktop Proficiency</p>
             </h3>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
               I possess advanced skills in GitHub Desktop, a crucial tool for
@@ -49,9 +50,15 @@ const About = () => {
                   <h2>View Github</h2>
                 </Link>
               </button>
-              <button className=" flex items-center justify-center  btn text-xs md:text-lg md:w-40 w-36 h-12 ">
-                <span className="">Download CV</span>
-              </button>
+              <Link
+                to={Resume}
+                download="Abhay_ReactJs_2YearsExp"
+                target="_black"
+              >
+                <button className="btn flex items-center justify-center  classes.navLinks text-xs md:text-lg md:w-40 w-36 h-12 ">
+                  <span className="">Download CV</span>
+                </button>
+              </Link>
             </div>
             <div className="flex mt-6 flex-col justify-center pt-6 sm:flex-row lg:justify-start">
               <div className="flex items-center justify-center sm:justify-start">
