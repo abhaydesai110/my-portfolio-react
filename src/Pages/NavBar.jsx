@@ -144,7 +144,10 @@ const NavBar = () => {
             </ul>
           </div>
           <div className="block lg:hidden">
-            <button className="text-formerror hover:text-white duration-300 text-xl " onClick={toggleMobileMenu}>
+            <button
+              className="text-white hover:text-formerror duration-300 text-xl "
+              onClick={toggleMobileMenu}
+            >
               {/* Add a mobile menu icon (e.g., hamburger menu icon) */}
               <GiHamburgerMenu size="35px" />
             </button>
@@ -166,7 +169,7 @@ const NavBar = () => {
             className="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3"
           >
             <button
-              className="absolute text-formerror top-0 right-0 mt-4 mr-4"
+              className="absolute text-white hover:text-formerror duration-300 top-0 right-0 mt-4 mr-4"
               onClick={toggleMobileMenu}
             >
               <RiCloseFill size="35px" />

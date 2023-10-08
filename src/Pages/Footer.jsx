@@ -10,7 +10,7 @@ const Footer = () => {
             Thanks for Visiting
           </p>
           <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-            <Link to="https://www.facebook.com/abhaydesai110" target="_black">
+            <Link to="https://www.facebook.com/abhay.desai.9028" target="_black">
               <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
             </Link>
             <Link
@@ -20,18 +20,18 @@ const Footer = () => {
             >
               <i className="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
             </Link>
-            <Link to="/" className="pl-4" target="_black">
+            <Link to="https://abhaydesai.netlify.app/" className="pl-4" target="_black">
               <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
             </Link>
             <Link
-              to="https://in.linkedin.com/abhaydesai110"
+              to="https://www.linkedin.com/in/abhay-desai-336863166/"
               className="pl-4"
               target="_black"
             >
               <i className="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
             </Link>
             <Link
-              to="https://instagram.com/abhaydesai110"
+              to="https://www.instagram.com/abhay_desai_110/"
               className="pl-4"
               target="_blank"
             >

@@ -45,7 +45,9 @@ const About = () => {
             <div className="flex items-center space-x-7 justify-center w-full pt-6">
               <button className="text-xs md:text-lg xs:w-40 flex font-normal items-center space-x-2 justify-center hover:w-44  h-12 w-40   hover:bg-primary hover:border-0 duration-300  font-medium bg-black text-white rounded-3xl  ">
                 <i className="bx bxl-github text-2xl text-white  duration-300 hover:text-grey-20"></i>
-                <h2>View Github</h2>
+                <Link to="https://github.com/abhaydesai110" target="_blank">
+                  <h2>View Github</h2>
+                </Link>
               </button>
               <button className=" flex items-center justify-center  btn text-xs md:text-lg md:w-40 w-36 h-12 ">
                 <span className="">Download CV</span>
@@ -62,7 +64,7 @@ const About = () => {
               </div>
               <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
                 <Link
-                  to="https://www.facebook.com/abhaydesai110"
+                  to="https://www.facebook.com/abhay.desai.9028"
                   target="_black"
                 >
                   <i className="bx bxl-facebook-square text-2xl text-primary hover:text-black duration-300"></i>
@@ -74,18 +76,22 @@ const About = () => {
                 >
                   <i className="bx bxl-twitter text-2xl text-primary hover:text-black duration-300"></i>
                 </Link>
-                <Link to="/" className="pl-4" target="_black">
+                <Link
+                  to="https://abhaydesai.netlify.app/"
+                  className="pl-4"
+                  target="_black"
+                >
                   <i className="bx bxl-dribbble text-2xl text-primary hover:text-black  duration-300"></i>
                 </Link>
                 <Link
-                  to="https://in.linkedin.com/abhaydesai110"
+                  to="https://www.linkedin.com/in/abhay-desai-336863166/"
                   className="pl-4"
                   target="_black"
                 >
                   <i className="bx bxl-linkedin text-2xl text-primary hover:text-black  duration-300"></i>
                 </Link>
                 <Link
-                  to="https://instagram.com/abhaydesai110"
+                  to="https://www.instagram.com/abhay_desai_110/"
                   className="pl-4"
                   target="_blank"
                 >

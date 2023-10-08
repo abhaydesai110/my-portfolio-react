@@ -2,11 +2,12 @@ import React from "react";
 import EventoPackage from "../assets/img/eventopakage.png";
 import FestumField from "../assets/img/festumfield2.png";
 import Interior from "../assets/img/Interior.png";
+import MyWebsite from "../assets/img/AbhayWebsite.png";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="bg-grey-50">
       <div className="container py-16 md:py-20" id="portfolio">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
           Check out my Portfolio
@@ -18,32 +19,29 @@ const Portfolio = () => {
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
           <Link
             to="https://eventopackage.com/"
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+            className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
             target="_blanl"
           >
             <img src={EventoPackage} className="w-full h-full shadow" />
           </Link>
           <Link
             to="https://festumfield.com/"
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+            className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
             target="_blank"
           >
             <img src={FestumField} className="w-full shadow" />
           </Link>
           <a
             href="/"
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+            className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
           >
             <img src={Interior} className="w-full shadow" />
           </a>
           <a
             href="/"
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
+            className="mx-auto transform transition-all shadow-2xl  hover:scale-105 md:mx-0"
           >
-            <img
-              src="/assets/img/portfolio-microsoft.jpeg"
-              className="w-full shadow"
-            />
+            <img src={MyWebsite} className="w-full shadow " />
           </a>
         </div>
       </div>

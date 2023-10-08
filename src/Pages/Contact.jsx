@@ -39,10 +39,10 @@ const Contact = () => {
         }
       );
   };
- 
+
   return (
     <div
-      className=""
+      className="bg-grey-50"
       // style={{ backgroundImage: `url('../src/assets/img/Experience.jpg')` }}
     >
       <div className="container py-16 md:py-20" id="contacts">

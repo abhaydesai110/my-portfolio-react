@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const MyExperience = () => {
   return (
-    <div className="">
-      <div className="container  py-16 md:py-20" id="work">
+    <div className=" bg-[url('../src/assets/img/Good.jpg')] bg-fixed bg-cover bg-cover bg-fixed">
+      <div className="container   py-16 md:py-20" id="work">
         <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
           My work experience
         </h2>
@@ -34,7 +34,7 @@ const MyExperience = () => {
                 <div className="mt-1 flex">
                   <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                   <div className="md:-mt-1 md:pl-8">
-                    <span className="block font-body font-bold text-grey-40">
+                    <span className="block font-body font-bold text-black">
                       Auguset 2023 - Present
                     </span>
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
@@ -71,7 +71,7 @@ const MyExperience = () => {
                 <div className="mt-1 flex">
                   <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                   <div className="md:-mt-1 md:pl-8">
-                    <span className="block font-body font-bold text-grey-40">
+                    <span className="block font-body font-bold text-black">
                       January 2022 - July 2022
                     </span>
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
@@ -108,7 +108,7 @@ const MyExperience = () => {
                 <div className="mt-1 flex">
                   <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                   <div className="md:-mt-1 md:pl-8">
-                    <span className="block font-body font-bold text-grey-40">
+                    <span className="block font-body font-bold text-black">
                       August 2018 - December 2021
                     </span>
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
