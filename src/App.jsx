@@ -26,9 +26,10 @@ const App = () => {
       <div>
         <NavBar />
         {/* <MobileNavbar /> */}
+        {/* <MobileNavbar /> */}
         <Home id="home" />
         <About id="about" />
-        <Github />
+        {/* <Github /> */}
         <Services id="services" />
         <Portfolio id="portfolio" />
         {/* <Clients id="clients" /> */}

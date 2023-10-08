@@ -4,17 +4,19 @@ import { TypeAnimation } from "react-type-animation";
 import "../Pages/button.css";
 import Abhay from "../assets/img/Abhay.jpeg";
 
-
 const Home = () => {
   return (
     <div>
       <div className="relative sticky bg-cover  bg-center  bg-no-repeat py-8">
-        <div className="absolute  inset-0 z-20 lg:bg-[url('../src/assets/img/ReactWallpaper7.jpg')] bg-[url('../src/assets/img/MobileBg4.jpeg')]  bg-cover bg-center bg-no-repeat"></div>
+        <div className="absolute  inset-0  lg:bg-[url('../src/assets/img/ReactWallpaper7.jpg')] bg-[url('../src/assets/img/MobileBg4.jpeg')]  bg-cover bg-center bg-no-repeat"></div>
 
-        <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
+        <div className="container relative  pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div className="rounded-full animate-upDown border-8 border-primary shadow-xl">
-              <img src={Abhay} className="h-48 object-scale-down rounded-full sm:h-56" />
+              <img
+                src={Abhay}
+                className="h-48 object-scale-down rounded-full sm:h-56"
+              />
             </div>
             <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
               <h1 className="text-center font-header text-3xl text-white sm:text-left sm:text-5xl md:text-5xl">
