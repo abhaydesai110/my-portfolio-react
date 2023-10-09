@@ -31,18 +31,21 @@ const Portfolio = () => {
           >
             <img src={FestumField} className="w-full shadow" />
           </Link>
-          <a
-            href="/"
+          <Link
+            to="https://interiormt.netlify.app/"
+            target="_blank"
             className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
           >
             <img src={Interior} className="w-full shadow" />
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            href="https://abhaydesai.netlify.app"
             className="mx-auto transform transition-all shadow-2xl  hover:scale-105 md:mx-0"
+            target="_blank"
           >
             <img src={MyWebsite} className="w-full shadow " />
-          </a>
+          </Link>
+          
         </div>
       </div>
     </div>

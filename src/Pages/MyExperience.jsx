@@ -35,7 +35,7 @@ const MyExperience = () => {
                   <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
                   <div className="md:-mt-1 md:pl-8">
                     <span className="block font-body font-bold text-black">
-                      Auguset 2023 - Present
+                      Auguset 2022 - Present
                     </span>
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
                       React Js Developer (SCALELOT TECHNOLOGY)
