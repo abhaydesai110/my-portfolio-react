@@ -20,7 +20,7 @@ const Services = () => {
           Here's what I'm good at
         </h2>
         <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          These are the services Ioffer
+          These are the services 
         </h3>
 
         <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
@@ -123,7 +123,7 @@ const Services = () => {
                 Debugging and Troubleshooting
               </h3>
               <p className="font-body text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                React frequently releases new versions, and so we have may be
+                React frequently releases new versions, and so i have may be
                 involved in upgrading existing projects to the latest React
                 version or migrating from older libraries or frameworks.
               </p>
