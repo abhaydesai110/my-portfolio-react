@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <div className="relative sticky bg-cover  bg-center  bg-no-repeat py-8">
-        <div className="absolute  inset-0 bg-fixed  lg:bg-[url('../src/assets/img/ReactWallpaper7.jpg')] bg-[url('../src/assets/img/MobileBg4.jpeg')]  bg-cover bg-center bg-no-repeat"></div>
+        <div className="absolute  inset-0 bg-fixed  lg:bg-[url('../src/assets/img/ReactWallpaper8.png')] bg-[url('../src/assets/img/MobileBg4.jpeg')]  bg-cover bg-center bg-no-repeat"></div>
 
         <div className="container relative  pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
           <div className="flex flex-col items-center justify-center lg:flex-row">
