@@ -18,6 +18,7 @@ import Clients from "./Pages/Clients";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Github from "./Pages/Github";
+import { Route, Routes } from "react-router-dom";
 // import AbhayzImage from "../src/assets/img/blog-author.jpg"
 
 const App = () => {
