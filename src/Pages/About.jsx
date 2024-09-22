@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import Resume from "../assets/img/Abhay_ReactJs_2YearsExp.pdf";
+import Resume from "../assets/img/AbhayDesai_3_Year_Exp_React_Js.pdf";
 
 const About = () => {
   return (
@@ -12,7 +11,7 @@ const About = () => {
               Who am I?
             </h2>
             <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-              I'm Abhay Desai, a React Js Developer
+              I am Abhay Desai, a React Js Developer
             </h4>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
               React JS Developer with 2+ years of experience in building user
@@ -25,7 +24,7 @@ const About = () => {
               Technical skills
             </h3>
             <p className="flex pt-6 font font-medium text-grey-20 flex-row">
-               HTML | CSS | JAVASCRIPT | REACT | STATE MANAGEMENT | ROUTING
+              HTML | CSS | JAVASCRIPT | REACT | STATE MANAGEMENT | ROUTING
               <br />| API INTEGRATON | DEBUGGING| DEPLOYMENT | NODEJS | EXPRESS
               JS | <br />| MONGODB | REDUX-TOOLKIT
             </p>
@@ -34,14 +33,13 @@ const About = () => {
               <p className="text-center">GitHub Desktop Proficiency</p>
             </h3>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
-              I possess advanced skills in GitHub Desktop, a crucial tool for
-              version control and collaborative software development. With a
-              deep understanding of its features, I proficiently manage code
-              repositories, oversee version control processes, and foster
-              effective collaboration within development teams. My expertise in
-              GitHub Desktop reflects my commitment to enhancing productivity
-              and code quality in software development endeavors, making me a
-              sought-after contributor to any coding team.
+              GITHUB PROFICIENCY <br />
+              • Proficient in Git and GitHub, including branch creation, merging, and conflict resolution <br />
+              • Experienced with continuous integration and delivery environments, including development,
+              staging, and UAT<br />
+              •
+              Creation and merging of branches for feature development and bug fixes
+              Merging of branches with conflict resolution to maintain code integrity and project continuity
             </p>
             <div className="flex items-center space-x-7 justify-center w-full pt-6">
               <button className="text-xs md:text-lg xs:w-40 flex font-normal items-center space-x-2 justify-center hover:w-44  h-12 w-40   hover:bg-primary hover:border-0 duration-300  font-medium bg-black text-white rounded-3xl  ">
@@ -52,7 +50,7 @@ const About = () => {
               </button>
               <Link
                 to={Resume}
-                download="Abhay_ReactJs_2YearsExp"
+                download="Abhay_ReactJs_2YearsExpAbhayDesai_3_Year_Exp_React_Js"
                 target="_black"
               >
                 <button className="btn flex items-center justify-center  classes.navLinks text-xs md:text-lg md:w-40 w-36 h-12 ">

@@ -2,6 +2,8 @@ import React from "react";
 import EventoPackage from "../assets/img/eventopakage.png";
 import FestumField from "../assets/img/festumfield2.png";
 import Interior from "../assets/img/Interior.png";
+import Whitelabel from "../assets/img/whitelabel.png";
+import Capsync from "../assets/img/Capsync.png";
 import MyWebsite from "../assets/img/AbhayWebsite.png";
 import Demo from "../assets/img/Demo_Dashboard.png";
 import { Link } from "react-router-dom";
@@ -19,6 +21,20 @@ const Portfolio = () => {
 
         <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
           <Link
+            to="https://app.capsync.com/"
+            className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
+            target="_blanl"
+          >
+            <img src={Capsync} className="w-full h-full shadow" />
+          </Link>
+          <Link
+            to="https://stage-wl-app.capsync.com/sign-in"
+            className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
+            target="_blanl"
+          >
+            <img src={Whitelabel} className="w-full h-full shadow" />
+          </Link>
+          <Link
             to="https://eventopackage.com/"
             className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
             target="_blanl"
@@ -31,6 +47,13 @@ const Portfolio = () => {
             target="_blank"
           >
             <img src={FestumField} className="w-full shadow" />
+          </Link>
+          <Link
+            to="https://www.bdhtppm.com/"
+            target="_blank"
+            className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
+          >
+            <img src={Demo} className="w-full shadow" />
           </Link>
           <Link
             to="https://interiormt.netlify.app/"
@@ -46,13 +69,6 @@ const Portfolio = () => {
           >
             <img src={MyWebsite} className="w-full shadow " />
           </Link>
-          {/* <Link
-            to="https://www.bdhtppm.com/"
-            target="_blank"
-            className="mx-auto transform transition-all shadow-2xl hover:scale-105 md:mx-0"
-          >
-            <img src={Demo} className="w-full shadow" />
-          </Link> */}
 
         </div>
       </div>

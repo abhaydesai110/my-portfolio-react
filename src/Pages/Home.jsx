@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import "../Pages/button.css";
 import Abhay from "../assets/img/Abhay.jpeg";
-import Resume from "../assets/img/Abhay_ReactJs_2YearsExp.pdf";
+import Resume from "../assets/img/AbhayDesai_3_Year_Exp_React_Js.pdf";
 
 const Home = () => {
   return (
@@ -85,7 +85,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="flex items-center justify-center xl:items-center pl-0 sm:justify-start md:pl-1 mt-8">
-                <Link to={Resume} download="Abhay_ReactJs_2YearsExp" target="_black">
+                <Link to={Resume} download="AbhayDesai_3_Year_Exp_React_Js" target="_black">
                   <button className="btn classes.navLinks">
                     <span>Download CV</span>
                   </button>
