@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import Resume from "../assets/img/AbhayDesai_3_Year_Exp_React_Js.pdf";
+import Resume from "../assets/img/Abhay_3.5_Year_ReactJS.pdf";
 
 const About = () => {
   return (
